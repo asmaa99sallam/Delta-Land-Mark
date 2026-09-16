@@ -23,5 +23,8 @@ export class Brands {
         logoSrc: resolveAsset(brand.logo),
       })),
     }))
-  );
+  )
+  openDetails(id:number){
+    
+  }
 }
