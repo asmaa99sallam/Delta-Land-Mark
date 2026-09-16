@@ -3,3 +3,78 @@
   position: relative;
   z-index: 1;
 }
+
+/* ==================================
+   COLOR OVERRIDES ONLY
+   Keep original design unchanged
+================================== */
+
+:host {
+  --home-orange: #f97316;
+  --home-orange-soft: rgba(249, 115, 22, 0.10);
+  --home-orange-border: rgba(249, 115, 22, 0.20);
+
+  --home-white: #ffffff;
+  --home-white-soft: rgba(255, 255, 255, 0.92);
+
+  --home-text: #222222;
+  --home-muted: #666666;
+}
+
+/* Hero text */
+.mt-hero__title {
+  color: var(--home-text);
+}
+
+.mt-hero__copy {
+  color: var(--home-muted);
+}
+
+/* Phone */
+.mt-hero__phone {
+  color: var(--home-text);
+
+  background: rgba(255, 255, 255, 0.85);
+
+  border-color: var(--home-orange-border);
+}
+
+/* Main CTA */
+.liquid-btn {
+  background: var(--home-orange);
+
+  color: #ffffff;
+}
+
+/* Meta */
+.mt-hero__meta {
+  color: var(--home-muted);
+}
+
+.mt-hero__dot {
+  background: var(--home-orange);
+}
+
+/* Feature cards */
+.mt-feature {
+  background: rgba(255, 255, 255, 0.88);
+
+  border-color: var(--home-orange-border);
+}
+
+/* Icons */
+.mt-feature__icon {
+  color: var(--home-orange);
+
+  background: var(--home-orange-soft);
+}
+
+/* Titles */
+.mt-feature__title {
+  color: var(--home-text);
+}
+
+/* Description */
+.mt-feature__text {
+  color: var(--home-muted);
+}
